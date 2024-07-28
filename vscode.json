@@ -1,0 +1,86 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"editor.mouseWheelZoom": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.confirmDelete": false,
+	"prettier.useTabs": true,
+	"editor.tabSize": 2,
+	"workbench.colorTheme": "Sublime Monokai",
+	"workbench.sideBar.location": "right",
+	"workbench.colorCustomizations": {
+		"tab.activeBackground": "#393a32",
+		"tab.activeBorder": "#cbad2a",
+		"tab.activeBorderTop": "#cbad2a",
+		"tab.activeForeground": "#cbad2a",
+		"tab.inactiveBackground": "#272822",
+		"tab.hoverBackground": "#171717",
+		"statusBar.background": "#1e1f1c",
+		"statusBar.border": "#cbad2a"
+	},
+	"editor.tokenColorCustomizations": {
+		"[Sublime Monokai]": {
+			"textMateRules": [
+				{
+					"scope": ["meta.jsx.children.js"],
+					"settings": {
+						"foreground": "#ffffffeb",
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": [
+						"variable.other.readwrite.alias.js",
+						"variable.other.readwrite.js"
+					],
+					"settings": {
+						"foreground": "#FD971F",
+						"fontStyle": "bold"
+					}
+				},
+				{
+					"scope": ["variable.other.constant.js"],
+					"settings": {
+						"fontStyle": "bold"
+					}
+				},
+				{
+					"scope": [
+						"punctuation.section.embedded.begin.js",
+						"punctuation.section.embedded.end.js",
+						"variable.other.object.js"
+					],
+					"settings": {
+						"fontStyle": "bold underline"
+					}
+				},
+
+				{
+					"scope": ["support.variable.property.js"],
+					"settings": {
+						"fontStyle": ""
+					}
+				}
+			]
+		}
+	},
+	"gitlens.defaultDateLocale": null,
+	"cmake.configureOnOpen": false,
+	"nxConsole.showNodeVersionOnStartup": false,
+	"extensions.ignoreRecommendations": true,
+	"security.allowedUNCHosts": ["wsl.localhost"]
+}
